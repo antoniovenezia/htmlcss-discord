@@ -183,11 +183,17 @@
 .float-footer{
     max-width: 1200px;
     color: white;
+    margin: auto;
+    border-bottom: 1px solid hsl(227deg 56% 64%);
+    padding-bottom: 20px;
+
 }
 
 .footer-big-text{
     font-size: 30px;
     font-weight: bold;
+    color: hsl(227deg 56% 64%);
+    padding: 50px 0 10px 0;
 }
 
 .italiano{
@@ -200,8 +206,22 @@
 
 li{
     list-style: none;
+    padding: 8px 0;
 }
 
-/* .fl-footer{
+.fl-footer1{
+    width: calc((100% / 6) * 2);
+}
 
-} */
+.fl-footer{
+    width: calc(100%/6);
+}
+
+.signin{
+    color: white;
+    font-size: 15px;
+    background-color: hsl(226deg 58% 72%);
+    border-radius: 15px;
+    line-height: 30px;   
+    padding: 0 20px;
+}
