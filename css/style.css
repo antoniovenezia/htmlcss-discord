@@ -179,6 +179,12 @@
     background-color: hsl(206deg 9% 15%);
 }
 
+
+.float-footer{
+    max-width: 1200px;
+    color: white;
+}
+
 .footer-big-text{
     font-size: 30px;
     font-weight: bold;
@@ -191,3 +197,11 @@
 .flag{
     width: 40px;
 }
+
+li{
+    list-style: none;
+}
+
+/* .fl-footer{
+
+} */
