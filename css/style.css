@@ -10,6 +10,9 @@
     clear: both;
 }
 
+
+
+/* HEADER */
 .header{
     height: 500px;
     background-image: url(../img/jumbo.png);
@@ -96,7 +99,8 @@
 
 
 
-/* FLOAT */
+
+/* MAIN */
 
 [class^="main-"]{
     width: 100%;
@@ -173,6 +177,8 @@
     width: 700px;
     background-size: cover;
 }
+
+
 
 
 
